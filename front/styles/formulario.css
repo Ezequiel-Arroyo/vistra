@@ -1,13 +1,17 @@
-main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+#formulario {
+  margin-top: 2%;
+  padding: 10px;
+  background-color: rgba(2, 26, 43, 0.8);
+  width: 60%;
 }
 
-#formulario {
-  margin-top: 4%;
-  padding: 10px;
-  background-color: rgb(23, 202, 7);
-  width: 80%;
+footer {
+  background-color: rgb(202, 150, 7);
+  height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+  #formulario {
+    width: 90%;
+  }
 }

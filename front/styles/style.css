@@ -39,9 +39,7 @@
   align-content: center;
   background-color: rgba(63, 169, 245, 0.1);
 }
-#card-back ul,
-li,
-h4 {
+#card-back ul li h4 {
   width: 100%;
 }
 
