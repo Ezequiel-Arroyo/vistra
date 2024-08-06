@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="../styles/reset.css" />
     <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/pelicula.css" />
   </head>
   <body>
     <header class="position-fixed z-3 w-100">
@@ -61,10 +62,81 @@
                   Géneros
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Accion</a></li>
-                  <li><a class="dropdown-item" href="#">Accion</a></li>
-                  <li><a class="dropdown-item" href="#">Accion</a></li>
-                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Acción</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Aventura</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Comedia</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Drama</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Terror</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Ciencia Ficción</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Fantasía</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Romance</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Musical</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Documental</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Suspenso</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Crimen</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Western</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Animación</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../pages/genero.html"
+                      >Familiar</a
+                    >
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -86,30 +158,45 @@
     <main>
       <div
         id="carouselExampleAutoplaying"
-        class="carousel slide z-0 d-flex w-100"
+        class="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner vh-100">
+        <div class="carousel-inner" id="carrusel">
           <div class="carousel-item active opacity-1">
             <img
               src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2022/05/bad-boys-life-2709013.jpg?tf=3840x"
-              class="d-block w-100"
+              class="d-block mx-auto"
               alt="..."
             />
+            <div
+              class="carousel-caption d-none d-md-block fs-1 text-white fw-bold text-center bg-black bg-opacity-50"
+            >
+              <h1>Próximamente</h1>
+            </div>
           </div>
           <div class="carousel-item opacity-1">
             <img
               src="https://i.blogs.es/eef291/john-wick-4-poster-4k-wallpaper-uhdpaper.com-641-0-g/1366_2000.jpeg"
-              class="d-block w-100"
+              class="d-block w-75 mx-auto"
               alt="..."
             />
+            <div
+              class="carousel-caption d-none d-md-block fs-1 text-white fw-bold text-center bg-black bg-opacity-50"
+            >
+              <h1>Próximamente</h1>
+            </div>
           </div>
           <div class="carousel-item opacity-1">
             <img
               src="https://images.hdqwalls.com/wallpapers/deadpool-3-extravaganza-ac.jpg"
-              class="d-block w-100"
+              class="d-block w-100 mx-auto"
               alt="..."
             />
+            <div
+              class="carousel-caption d-none d-md-block fs-1 text-white fw-bold text-center bg-black bg-opacity-50"
+            >
+              <h1>Próximamente</h1>
+            </div>
           </div>
         </div>
         <button
@@ -140,7 +227,6 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <script src="../scripts/tempData.js"></script>
-    <script src="../scripts/index.js"></script>
+    <script src="../public/index.bundle.js"></script>
   </body>
 </html>

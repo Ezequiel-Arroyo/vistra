@@ -1,3 +1,5 @@
+const { tempData } = require("../scripts/tempData.js");
+
 class Repository {
   constructor() {
     this.allcard = [];
@@ -59,7 +61,7 @@ class Repository {
     const card_back_li_5_h4_2 = document.createElement("h4");
     card_back_li_5_h4_1.textContent = "Genre";
     card_back_li_5_h4_2.id = "card-back-genre";
-    card_back_li_5_h4_2.textContent = `${genre}, `;
+    card_back_li_5_h4_2.textContent = ` ${genre}, `;
 
     const card_back_li_6 = document.createElement("li");
     const card_back_li_6_h4_1 = document.createElement("h4");
