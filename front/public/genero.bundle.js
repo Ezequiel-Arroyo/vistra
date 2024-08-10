@@ -1,0 +1,1 @@
+(()=>{const o=decodeURIComponent(new URLSearchParams(window.location.search).get("genero"));console.log(o)})();

@@ -131,6 +131,35 @@ table {
 }
 
 /* ------------------------------------------------------ */
+
+body {
+  font-family: "Times New Roman", serif;
+}
+
 main {
   padding-top: 69px;
+}
+
+h1 {
+  font-size: 2.5em; /* Aproximadamente 40 píxeles si la fuente base es 16 píxeles */
+}
+
+h2 {
+  font-size: 2em; /* Aproximadamente 32 píxeles */
+}
+
+h3 {
+  font-size: 1.75em; /* Aproximadamente 28 píxeles */
+}
+
+h4 {
+  font-size: 1.5em; /* Aproximadamente 24 píxeles */
+}
+
+h5 {
+  font-size: 1.25em; /* Aproximadamente 20 píxeles */
+}
+
+h6 {
+  font-size: 1em; /* Aproximadamente 16 píxeles */
 }

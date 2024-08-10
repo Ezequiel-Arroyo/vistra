@@ -46,27 +46,128 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link text-white" href="./formulario.html"
-                  >Formulario</a
+                  >Agregar Película</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Sobre nosotros</a>
+                <a
+                  class="nav-link text-white"
+                  href="../pages/sobreNosotros.html"
+                  >Sobre nosotros</a
+                >
               </li>
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle text-white"
-                  href="#"
+                  href="../pages/genero.html"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
                   Géneros
                 </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Accion</a></li>
-                  <li><a class="dropdown-item" href="#">Accion</a></li>
-                  <li><a class="dropdown-item" href="#">Accion</a></li>
-                  <li><a class="dropdown-item" href="#">Action</a></li>
+                <ul
+                  class="dropdown-menu ul-generos bg-black bg-opacity-75"
+                  id="generos"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Acción</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Aventura</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Comedia</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Drama</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Terror</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Ficción</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Fantasía</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Romance</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Musical</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Documental</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Suspenso</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Crimen</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Animación</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white genero"
+                      href="../pages/genero.html"
+                      >Familiar</a
+                    >
+                  </li>
                 </ul>
               </li>
             </ul>
@@ -261,14 +362,11 @@
           </div>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-md-12">
           <label for="inputEmail4" class="form-label">Poster</label>
           <input type="text" class="form-control" />
         </div>
-        <div class="col-md-6">
-          <label for="inputPassword4" class="form-label">Pelicula</label>
-          <input type="text" class="form-control" id="" />
-        </div>
+
         <div class="col-12 row g-3 justify-content-center">
           <div class="col-md-6 d-flex justify-content-between">
             <button type="reset" class="btn btn-primary">Restablecer</button>
@@ -283,6 +381,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script src="../public/nav.bundle.js"></script>
     <script src="../public/formulario.bundle.js"></script>
   </body>
 </html>

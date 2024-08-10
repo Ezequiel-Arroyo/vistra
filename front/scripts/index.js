@@ -29,43 +29,43 @@ class Repository {
     const card_back_ul = document.createElement("ul");
 
     const card_back_li_1 = document.createElement("li");
-    const card_back_li_1_h4_1 = document.createElement("h4");
-    const card_back_li_1_h4_2 = document.createElement("h4");
-    card_back_li_1_h4_1.textContent = "Tittle";
+    const card_back_li_1_h4_1 = document.createElement("h5");
+    const card_back_li_1_h4_2 = document.createElement("h6");
+    card_back_li_1_h4_1.textContent = "Título ";
     card_back_li_1_h4_2.id = "card-back-title";
     card_back_li_1_h4_2.textContent = title;
 
     const card_back_li_2 = document.createElement("li");
-    const card_back_li_2_h4_1 = document.createElement("h4");
-    const card_back_li_2_h4_2 = document.createElement("h4");
-    card_back_li_2_h4_1.textContent = "Year";
+    const card_back_li_2_h4_1 = document.createElement("h5");
+    const card_back_li_2_h4_2 = document.createElement("h6");
+    card_back_li_2_h4_1.textContent = "Año";
     card_back_li_2_h4_2.id = "card-back-year";
     card_back_li_2_h4_2.textContent = year;
 
     const card_back_li_3 = document.createElement("li");
-    const card_back_li_3_h4_1 = document.createElement("h4");
-    const card_back_li_3_h4_2 = document.createElement("h4");
-    card_back_li_3_h4_1.textContent = "Director";
+    const card_back_li_3_h4_1 = document.createElement("h5");
+    const card_back_li_3_h4_2 = document.createElement("h6");
+    card_back_li_3_h4_1.textContent = "Director/es";
     card_back_li_3_h4_2.id = "card-back-director";
     card_back_li_3_h4_2.textContent = director;
 
     const card_back_li_4 = document.createElement("li");
-    const card_back_li_4_h4_1 = document.createElement("h4");
-    const card_back_li_4_h4_2 = document.createElement("h4");
-    card_back_li_4_h4_1.textContent = "Duration";
+    const card_back_li_4_h4_1 = document.createElement("h5");
+    const card_back_li_4_h4_2 = document.createElement("h6");
+    card_back_li_4_h4_1.textContent = "Duracion";
     card_back_li_4_h4_2.id = "card-back-duration";
     card_back_li_4_h4_2.textContent = duration;
 
     const card_back_li_5 = document.createElement("li");
-    const card_back_li_5_h4_1 = document.createElement("h4");
-    const card_back_li_5_h4_2 = document.createElement("h4");
-    card_back_li_5_h4_1.textContent = "Genre";
+    const card_back_li_5_h4_1 = document.createElement("h5");
+    const card_back_li_5_h4_2 = document.createElement("h6");
+    card_back_li_5_h4_1.textContent = "Genero";
     card_back_li_5_h4_2.id = "card-back-genre";
     card_back_li_5_h4_2.textContent = ` ${genre}, `;
 
     const card_back_li_6 = document.createElement("li");
-    const card_back_li_6_h4_1 = document.createElement("h4");
-    const card_back_li_6_h4_2 = document.createElement("h4");
+    const card_back_li_6_h4_1 = document.createElement("h5");
+    const card_back_li_6_h4_2 = document.createElement("h6");
     card_back_li_6_h4_1.textContent = "Rate";
     card_back_li_6_h4_2.id = "card-back-rate";
     card_back_li_6_h4_2.textContent = rate;

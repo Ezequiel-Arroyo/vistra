@@ -1,0 +1,1 @@
+document.querySelector("#generos").addEventListener("click",(e=>{e.preventDefault(),e.target.classList.contains("genero")&&(genero=e.target.textContent,window.location.href=`../pages/genero.html?genero=${genero}`)}));
